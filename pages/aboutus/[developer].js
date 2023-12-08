@@ -17,9 +17,9 @@ function Developer() {
   }
   return (
     <div>
-        {value==='1' && <h1>{details[0].name}</h1>}
-        {value==='2' && <h1>{details[1].name}</h1>}
-        {value==='3' && <h1>{details[2].name}</h1>}
+        {value==='1' && <h1>{details[0].name}-{details[0].role}</h1>}
+        {value==='2' && <h1>{details[1].name}-{details[1].role}</h1>}
+        {value==='3' && <h1>{details[2].name}-{details[2].role}</h1>}
         {check && <h1>Developer does not exist.</h1>}
     </div>
   );
